@@ -4,7 +4,7 @@ import { StaticImage } from "gatsby-plugin-image"
 
 import Layout from "../components/layout"
 import Seo from "../components/seo"
-import test from "../components/test"
+import Test from "./Test"
 
 const IndexPage = () => (
   <Layout>
@@ -27,7 +27,7 @@ const IndexPage = () => (
       <Link to="/using-dsg">Go to "Using DSG"</Link>
       
     </p>
-    <test></test>
+    <Test></Test>
 <form action="">
       <label for="user">Username</label>
       <input type="text" id="user" />
