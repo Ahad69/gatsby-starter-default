@@ -24,7 +24,21 @@ const IndexPage = () => (
       <Link to="/using-typescript/">Go to "Using TypeScript"</Link> <br />
       <Link to="/using-ssr">Go to "Using R"</Link> <br />
       <Link to="/using-dsg">Go to "Using DSG"</Link>
+      
     </p>
+<form action="">
+      <label for="user">Username</label>
+      <input type="text" id="user" />
+      <label for="Email">Email</label>
+      <input type="text" id="Email" />
+      <label for="password">Password</label>
+      <input type="password" id="password" />
+      <label for="password">Confirm Password</label>
+      <input type="password" id="password" />
+      <label for="phone">Phone</label>
+      <input type="text" id="phone"/> 
+      <input type="submit" value="Registration"/>
+      </form>
   </Layout>
 )
 
