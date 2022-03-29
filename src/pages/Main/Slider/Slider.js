@@ -3,41 +3,41 @@ import '../Banner/Banner.css'
 
 const Slider = () => {
     return (
-        <div className="images">
-        <section class="container">
-        <div class="row mt-3 container g-4">
-          <div class="col">
-            <div class="card border-0">
+        <div className="">
+        <section className= "container">
+        <div className="row mt-3 images container g-4">
+          <div className="col">
+            <div className="card border-0">
               <img
                 src="https://terminix.housemethod.com/wp-content/themes/terminix/images/partners/bbb.jpg"
-                class="card-img-top img-fluid"
+                className="card-img-top img-fluid"
                 alt="..."
               />
             </div>
           </div>
-          <div class="col">
-            <div class="card border-0">
+          <div className="col">
+            <div className="card border-0">
               <img
                 src="https://terminix.housemethod.com/wp-content/themes/terminix/images/rebrand/partners/90-plus-years-experience.jpg"
-                class="card-img-top img-fluid"
+                className="card-img-top img-fluid"
                 alt="..."
               />
             </div>
           </div>
-          <div class="col">
-            <div class="card border-0">
+          <div className="col">
+            <div className="card border-0">
               <img
                 src="https://terminix.housemethod.com/wp-content/themes/terminix/images/rebrand/partners/24-7-support.jpg"
-                class="card-img-top img-fluid"
+                className="card-img-top img-fluid"
                 alt="..."
               />
             </div>
           </div>
-          <div class="col">
-            <div class="card border-0">
+          <div className="col">
+            <div className="card border-0">
               <img
                 src="https://terminix.housemethod.com/wp-content/themes/terminix/images/rebrand/partners/expertly-trained-technicians.jpg"
-                class="card-img-top img-fluid"
+                className="card-img-top img-fluid"
                 alt="..."
               />
             </div>
