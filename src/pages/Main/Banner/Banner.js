@@ -8,10 +8,10 @@ const Banner = () => {
         const scriptURL =
         "https://script.google.com/macros/s/AKfycbwffzFM1yise-YH63oHFH8MTJCpVAJjWht0X7PbDD5zOPwX8LDCRabJAEfJZ_yknY6lFg/exec"
 
-    fetch(scriptURL, { method: "POST", body: new FormData(form) })
-      .then(response => console("Success!", response))
-      .catch(error => console.error("Error!", error.message))
-      .reset()
+        fetch(scriptURL, { method: "POST", body: new FormData(form) })
+        .then(response => console("Success!", response))
+        .catch(error => console.error("Error!", error.message))
+        .reset()
     }
  
 
@@ -54,7 +54,7 @@ const Banner = () => {
                   id="mce-EMAIL"
                   placeholder="Email"
                 />
-                <button onClick={handle} id="submit-button" type="submit">
+                <button  id="submit-button" type="submit">
                   Get My Free Quote
                 </button>
               </form>
