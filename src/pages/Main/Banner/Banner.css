@@ -1,0 +1,25 @@
+.banner{
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    flex-direction: column-reverse;
+}
+.number{
+    width: 70%;
+    background: goldenrod;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+.homeImg{
+    width: 100%;
+}
+.heading{
+    font-weight: 900;
+    font-size: 30px;
+}
+#form{
+    display: none;
+}
