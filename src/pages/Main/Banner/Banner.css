@@ -1,25 +1,39 @@
 .banner{
-    height: 50vh;
-    display: flex;
-    align-items: center;
+    height: 60vh;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    flex-direction: column-reverse;
+    background: linear-gradient(rgba(14, 13, 13, 0.322) , rgba(33, 34, 33, 0.329) ) , url(https://researchforecast.com/wp-content/uploads/2021/12/pest-control-market.jpg);
+}
+.review{
+    color: rgb(107, 148, 79);
 }
 .number{
-    width: 70%;
-    background: goldenrod;
-    border: 2px solid black;
-    border-radius: 10px;
+    background: #F58220;
+}
+.review-item{
+    border: 1px solid ;
+}
+.carousel-control-next-icon , .carousel-control-prev-icon {
+    background: #F58220;
 }
 .homeImg{
-    width: 100%;
+    width: 80%;
 }
 .heading{
     font-weight: 900;
-    font-size: 30px;
+    font-size: 70px;
 }
-#form{
-    display: none;
+span{
+    color: rgb(218, 106, 32);
+}
+#submit-button{
+    padding: 15px 30px;
+    font-size: 30px;
+    border: 3px solid #F58220;
+}
+.input{
+    margin-right:5px ;
+    padding: 15px  5px;
+    font-size: 30px;
 }
