@@ -37,27 +37,16 @@ const Banner = () => {
             </h1>
             <br />
             <div id="mc_embed_signup">
-              <form
-                action="https://gmail.us20.list-manage.com/subscribe/post?u=782e39a2407f93d6b8bc19a9c&amp;id=92e5e536c2"
-                method="post"
-                id="mc-embedded-subscribe-form"
-                name="mc-embedded-subscribe-form"
-                className="validate"
-                target="_blank"
-                novalidate
-              >
-                <input
-                  type="text"
-                 
-                  name="EMAIL"
-                  className="required email input"
-                  id="mce-EMAIL"
-                  placeholder="Email"
-                />
-                <input  id="submit-button" type="submit"
-                  Get My Free Quote
-                />
-              </form>
+            <form action="https://gmail.us20.list-manage.com/subscribe/post?u=782e39a2407f93d6b8bc19a9c&amp;id=92e5e536c2" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate >
+                                  
+                                  <div class="form-group">
+                                      <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL" />
+                                  </div>
+                                 
+                                  <div class="form-group">
+                                      <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button" />
+                                  </div>
+                              </form>
             </div>
             <script
               type="text/javascript"
