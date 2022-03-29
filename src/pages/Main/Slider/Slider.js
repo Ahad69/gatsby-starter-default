@@ -3,8 +3,8 @@ import '../Banner/Banner.css'
 
 const Slider = () => {
     return (
-        <div>
-             <section class="container">
+        <div className="images">
+        <section class="container">
         <div class="row mt-3 container g-4">
           <div class="col">
             <div class="card border-0">
