@@ -48,7 +48,7 @@ const Banner = () => {
               >
                 <input
                   type="text"
-                  value=""
+                 
                   name="EMAIL"
                   className="required email input"
                   id="mce-EMAIL"
