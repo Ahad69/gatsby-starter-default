@@ -48,12 +48,12 @@ span{
     justify-content: space-between;
     align-items: center;
 }
-#submit-button{
+#mc-embedded-subscribe{
     padding: 15px 30px;
     font-size: 30px;
     border: 3px solid #F58220;
 }
-.input{
+.required{
     margin-right:5px ;
     padding: 15px  5px;
     font-size: 30px;
