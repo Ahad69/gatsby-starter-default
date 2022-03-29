@@ -6,13 +6,11 @@ import Carosel from "./Main/Carosel/Carosel"
 
 
 const IndexPage = () => (
- 
-   <div>
-      <Banner></Banner>
+  <Layout>
+    <Banner></Banner>
     <Slider></Slider>
     <Carosel></Carosel>
-   </div>
- 
+  </Layout>
 )
 
 export default IndexPage
