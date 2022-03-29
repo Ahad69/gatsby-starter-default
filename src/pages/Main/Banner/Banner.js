@@ -40,7 +40,7 @@ const Banner = () => {
             <form action="https://gmail.us20.list-manage.com/subscribe/post?u=782e39a2407f93d6b8bc19a9c&amp;id=92e5e536c2" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate >
                                   
                                   <div class="form-group">
-                                      <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL" />
+                                      <input type="email"  name="EMAIL" class="required email" id="mce-EMAIL" />
                                   </div>
                                  
                                   <div class="form-group">
