@@ -9,6 +9,9 @@ import Guarantee from "./Main/Guarantee/Guarantee";
 
 
 const IndexPage = () => (
+
+ 
+
   <Layout>
     <Banner></Banner>
     <Slider></Slider>

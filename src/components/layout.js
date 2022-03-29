@@ -32,7 +32,7 @@ const Layout = ({ children }) => {
         <main>{children}</main>
         <footer
           style={{
-            marginTop: `2rem`,
+            
           }}
         >
          <div class="footer pt-5 pb-3 container">
