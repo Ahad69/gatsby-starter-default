@@ -54,9 +54,9 @@ const Banner = () => {
                   id="mce-EMAIL"
                   placeholder="Email"
                 />
-                <button  id="submit-button" type="submit">
+                <input  id="submit-button" type="submit"
                   Get My Free Quote
-                </button>
+                />
               </form>
             </div>
             <script
