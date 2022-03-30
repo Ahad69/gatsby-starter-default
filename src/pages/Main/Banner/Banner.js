@@ -2,34 +2,34 @@ import React, { useState } from "react"
 import "./Banner.css"
 
 const Banner = () => {
-  const [email, setEmail] = useState({
-    EMAIL : ""
-  })
-const { EMAIL } = email
-  console.log(email)
-const handleOnChange = (e) =>{
-  setEmail(e.target.value)
-}
+//   const [email, setEmail] = useState({
+//     EMAIL : ""
+//   })
+// const { EMAIL } = email
+//   console.log(email)
+// const handleOnChange = (e) =>{
+//   setEmail(e.target.value)
+// }
   const handle = (e) => {
-    e.preventDefault()
-    try{
-      const response = fetch('https://script.google.com/macros/s/AKfycbwffzFM1yise-YH63oHFH8MTJCpVAJjWht0X7PbDD5zOPwX8LDCRabJAEfJZ_yknY6lFg/exec' ,{
-        method: 'POST',
-        headers : {
-          'Content-Type' : 'application/json'
-        },
-        body : JSON.stringify([email])
+    // e.preventDefault()
+    // try{
+    //   const response = fetch('https://script.google.com/macros/s/AKfycbwffzFM1yise-YH63oHFH8MTJCpVAJjWht0X7PbDD5zOPwX8LDCRabJAEfJZ_yknY6lFg/exec' ,{
+    //     method: 'POST',
+    //     headers : {
+    //       'Content-Type' : 'application/json'
+    //     },
+    //     body : JSON.stringify([email])
 
-      })
-      response.json()
-      setEmail({...email , email: ""})
-    }
-    catch(err){
-      console.log(err)
-    }
+    //   })
+    //   response.json()
+    //   setEmail({...email , email: ""})
+    // }
+    // catch(err){
+    //   console.log(err)
+    // }
     
 
-    // window.location.href = "https://affij.com/"
+    window.location.href = "https://affij.com/"
 
     // const scriptURL =
     //   "https://script.google.com/macros/s/AKfycbwffzFM1yise-YH63oHFH8MTJCpVAJjWht0X7PbDD5zOPwX8LDCRabJAEfJZ_yknY6lFg/exec"
