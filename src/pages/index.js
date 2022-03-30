@@ -6,19 +6,36 @@ import Slider from "./Main/Slider/Slider"
 import Carosel from "./Main/Carosel/Carosel"
 import Common from "./Main/Common/Common";
 import Guarantee from "./Main/Guarantee/Guarantee";
-
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Link
+} from "react-router-dom";
 
 const IndexPage = () => (
 
  
-
-  <Layout>
-    <Banner></Banner>
-    <Slider></Slider>
-    <Carosel></Carosel>
-    <Common></Common>
-    <Guarantee></Guarantee>
-  </Layout>
+<Router>
+<Switch>
+          <Route path="/about">
+            <About />
+          </Route>
+          <Route path="/users">
+            <Users />
+          </Route>
+          <Route path="/">
+          <Layout>
+              <Banner></Banner>
+              <Slider></Slider>
+              <Carosel></Carosel>
+              <Common></Common>
+              <Guarantee></Guarantee>
+            </Layout>
+          </Route>
+        </Switch>
+</Router>
+  
 )
 
 export default IndexPage
