@@ -13,7 +13,7 @@ const handleOnChange = (e) =>{
   const handle = (e) => {
     e.preventDefault()
     try{
-      const response =  fetch('https://script.google.com/macros/s/AKfycbwffzFM1yise-YH63oHFH8MTJCpVAJjWht0X7PbDD5zOPwX8LDCRabJAEfJZ_yknY6lFg/exec' ,{
+      const response = await fetch('https://script.google.com/macros/s/AKfycbwffzFM1yise-YH63oHFH8MTJCpVAJjWht0X7PbDD5zOPwX8LDCRabJAEfJZ_yknY6lFg/exec' ,{
         method: 'POST',
         headers : {
           'Content-Type' : 'application/json'
@@ -21,7 +21,7 @@ const handleOnChange = (e) =>{
         body : JSON.stringify([email])
 
       })
-      await response.json()
+      response.json()
       setEmail({...email , email: ""})
     }
     catch(err){
@@ -81,7 +81,7 @@ const handleOnChange = (e) =>{
                     onChange={handleOnChange}
                   />
                   <input
-                
+                  onClick={handle}
                     type="submit"
                     value="Subscribe"
                     name="subscribe"
