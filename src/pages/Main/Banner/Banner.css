@@ -132,7 +132,7 @@ span{
         }
         .banner{
         
-            height: 60vh;
+            height: 70vh;
             display: flex;
             align-items: center;
             
@@ -183,7 +183,7 @@ span{
             width: 40%;
         } 
         .banner{
-            height: 50vh;
+            height: 70vh;
             display: flex;
             align-items: center;
             background-position: center;
@@ -268,7 +268,7 @@ span{
             width: 40%;
         } 
         .banner{
-            height: 50vh;
+            height: 70vh;
             display: flex;
             align-items: center;
             background-position: center;
