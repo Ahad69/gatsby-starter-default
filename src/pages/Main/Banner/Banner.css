@@ -127,13 +127,15 @@ span{
     
     @media screen and (max-width:992px){
        
-    
+        .poster{
+            padding-top: 150px;
+        }
         .banner{
         
             height: 60vh;
             display: flex;
             align-items: center;
-            padding-top: 150px;
+            
             padding-bottom: 20%;
             background-position: center;
             background-repeat: no-repeat;
