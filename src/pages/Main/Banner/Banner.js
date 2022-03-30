@@ -44,11 +44,12 @@ const Banner = () => {
                                   
                                   <div class="form-group">
                                       <input type="email"  name="EMAIL" class="required email" id="mce-EMAIL" />
-                                  </div>
-                                 
-                                  <div class="form-group">
                                       <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button" />
                                   </div>
+                                 
+                                  
+                                     
+                                 
                               </form>
             </div>
             <script
