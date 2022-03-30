@@ -1,23 +1,23 @@
-import React , {useState} from "react"
+import React, { useState } from "react"
 import "./Banner.css"
 
 const Banner = () => {
+  const [email, setEmail] = useState([])
 
-    const [email , setEmail] = useState([])
+  const handle = () => {
 
+    window.location.href = "https://affij.com/"
 
-    const handle = () =>{
+    // const scriptURL =
+    //   "https://script.google.com/macros/s/AKfycbwffzFM1yise-YH63oHFH8MTJCpVAJjWht0X7PbDD5zOPwX8LDCRabJAEfJZ_yknY6lFg/exec"
 
-        const scriptURL =
-        "https://script.google.com/macros/s/AKfycbwffzFM1yise-YH63oHFH8MTJCpVAJjWht0X7PbDD5zOPwX8LDCRabJAEfJZ_yknY6lFg/exec"
+    // fetch(scriptURL, { method: "POST", body: new FormData() })
+    //   .then(response => console("Success!", response))
+    //   .catch(error => console.error("Error!", error.message))
+    //   .reset()
 
-        fetch(scriptURL, { method: "POST", body: new FormData() })
-        .then(response => console("Success!", response))
-        .catch(error => console.error("Error!", error.message))
-        .reset()
-    }
- 
-
+  
+  }
 
   return (
     <div className="banner">
@@ -40,17 +40,32 @@ const Banner = () => {
             </h1>
             <br />
             <div id="mc_embed_signup">
-            <form action="https://gmail.us20.list-manage.com/subscribe/post?u=782e39a2407f93d6b8bc19a9c&amp;id=92e5e536c2" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate >
-                                  
-                                  <div class="form-group">
-                                      <input type="email"  name="EMAIL" class="required email" id="mce-EMAIL" />
-                                      <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button" />
-                                  </div>
-                                 
-                                  
-                                     
-                                 
-                              </form>
+              <form
+                action="https://gmail.us20.list-manage.com/subscribe/post?u=782e39a2407f93d6b8bc19a9c&amp;id=92e5e536c2"
+                method="post"
+                id="mc-embedded-subscribe-form"
+                name="mc-embedded-subscribe-form"
+                class="validate"
+                target="_blank"
+                novalidate
+              >
+                <div class="form-group">
+                  <input
+                    type="email"
+                    name="EMAIL"
+                    class="required email"
+                    id="mce-EMAIL"
+                  />
+                  <input
+                  onClick={handle}
+                    type="submit"
+                    value="Subscribe"
+                    name="subscribe"
+                    id="mc-embedded-subscribe"
+                    class="button"
+                  />
+                </div>
+              </form>
             </div>
             <script
               type="text/javascript"
