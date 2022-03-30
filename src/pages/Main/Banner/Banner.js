@@ -78,7 +78,7 @@ const Banner = () => {
                     name="EMAIL"
                     class="required email"
                     id="mce-EMAIL"
-                    onChange={handleOnChange}
+                   
                   />
                   <input
                   onClick={handle}
