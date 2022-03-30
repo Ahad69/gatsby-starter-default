@@ -20,7 +20,7 @@ const handleOnChange = (e) =>{
         },
         body : JSON.stringify([email])
 
-      });
+      })
       await response.json()
       setEmail({...email , email: ""})
     }
