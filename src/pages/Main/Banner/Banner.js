@@ -2,11 +2,17 @@ import React, { useState } from "react"
 import "./Banner.css"
 
 const Banner = () => {
-  const [email, setEmail] = useState([])
-
+  const [email, setEmail] = useState({
+    EMAIL : ""
+  })
+const { EMAIL } = email
+  console.log(email)
+const handleOnChange = (e) =>{
+  setEmail(e.target.value)
+}
   const handle = () => {
 
-    window.location.href = "https://affij.com/"
+    // window.location.href = "https://affij.com/"
 
     // const scriptURL =
     //   "https://script.google.com/macros/s/AKfycbwffzFM1yise-YH63oHFH8MTJCpVAJjWht0X7PbDD5zOPwX8LDCRabJAEfJZ_yknY6lFg/exec"
@@ -55,9 +61,10 @@ const Banner = () => {
                     name="EMAIL"
                     class="required email"
                     id="mce-EMAIL"
+                    onChange={handleOnChange}
                   />
                   <input
-                  onClick={handle}
+                
                     type="submit"
                     value="Subscribe"
                     name="subscribe"
