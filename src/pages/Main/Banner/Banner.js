@@ -29,7 +29,7 @@ const Banner = () => {
           </a>
         </h1>
       </div>
-      <div className="poster pt-5">
+      <div className="poster">
         <div className="container">
           <div className="homeHeading text-center">
             <h1 className="heading text-white">
